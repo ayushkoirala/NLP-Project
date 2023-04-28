@@ -33,7 +33,7 @@ GPT-2 and T-5 for Generating Abstractive summary
 ## Model 
 
 * Prompt tuning :
-    Prompt tuning with soft prompt technique that involves fine-tuning language models, such as GPT-2 and T-5. Here, the pretrained model parameters are frozon or kept-fixed while others are updated druing training with new data.  This approach are mainly used in conjunction with prompt tuning to fine-tune specific part of the model for specific taks while maintaining the pre-trained knowledge of the rest of the model. 
+    Prompt tuning with soft prompt technique that involves fine-tuning language models, such as GPT-2 and T5. Here, the pretrained model parameters are frozon or kept-fixed while others are updated druing training with new data.  This approach are mainly used in conjunction with prompt tuning to fine-tune specific part of the model for specific taks while maintaining the pre-trained knowledge of the rest of the model. 
     <p align="center"><img src="Figure/prompt-tuning.png"></p>
     Frozen parameter prompt tuning can be especially useful when the task-specific data is limited, or when fine-tuning the entire model with new data may result in overfitting. By freezing some of the parameters in the model, the model can retain its pre-trained knowledge and continue to perform well on tasks that require the use of this knowledge.
 
@@ -75,7 +75,7 @@ GPT-2 and T-5 for Generating Abstractive summary
 
     |Method| Model | R-1|R-2|R-L|
     |------|------|------|----|-----|
-    |100_1_prefix_with_top_3_imp_sentences| GPT-2|0.004243|0.000000|0.004243|
+    |100_1_prefix_with_top_3_imp_sentences|GPT-2|0.004243|0.000000|0.004243|
     |100_1_prefix_with_top_3_imp_sentences|T-5 |0.269796|0.154264|0.260666|
 
 ## Fine-tuning Loss Result:
