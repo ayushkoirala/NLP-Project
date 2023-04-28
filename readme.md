@@ -54,8 +54,7 @@ GPT-2 and T-5 for Generating Abstractive summary
     In our experiment we can see:
     |Method| Model | R-1|R-2|R-L|
     |------|------|------|----|-----|
-    |100_1_prefix_500_sample| GPT-2||||
-    
+    |100_1_prefix_500_sample| GPT-2|0.001122|0.000000|0.001111|
     |100_1_prefix_500_sample|T-5 |0.390160|0.291566|0.384393|
 
 * <B>Top 20 keywords with Top 3 sentences:</B>
@@ -66,7 +65,7 @@ GPT-2 and T-5 for Generating Abstractive summary
     |Method| Model | R-1|R-2|R-L|
     |------|------|------|----|-----|
     |Top_20_keywords_with_Top_3_sentences| GPT-2|0.000498|0.000000|0.000498|
-    |Top_20_keywords_with_Top_3_sentences|T-5 |0.390160|0.291566|0.384393|
+    |Top_20_keywords_with_Top_3_sentences|T-5 |0.296802|0.172295|0.289835|
 
 
 * <B>100_1 as prefix with top 3 importance sentences:</B>
