@@ -118,6 +118,6 @@ For implemetation we use HTML, CSS, JavaScript and Bootstrap for the front end o
 
 ## Conclusion:
 
-
+Despite all the experiments, as we can see the inference part, we are not able to achieve a good result. This is highly likely due to the use of only 500 samples but for few shot a minimum of 1000 samples or more.  
 
 
