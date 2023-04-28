@@ -34,14 +34,20 @@ GPT-2 and T-5 for Generating Abstractive summary
 * 100_1 prefix with 500 sample from Xsum dataset with GPT-2 and T-5:
     In this experiment we have taken 100_1 prefix to make a soft prompt and it is concatnated source document of 500 sample from xsum dataset to both GPT-2 and T-5 language model.
     <p align="center"><img src="Figure/100_1_prompt_500_sample.png"></p>
+    
     In our experiment we can see:
+    |Method| Model | R-1|R-2|R-L|
+    |------|------|------|----|-----|
     |100_1_prefix_500_sample| GPT-2||||
+    
     |100_1_prefix_500_sample|T-5 |0.390160|0.291566|0.384393|
 
 * Top 20 keywords with Top 3 sentences:
     In this experiment we have taken 20 keywords from each sample from xsum dataset. for keywords we used spacy model to indentify the important keywords. and for identify the top 3 important sentences we have used Bertsum model. 
     <p align="center"><img src="Top_20_keywrods_3_sentences.png"></p>
     In our experiment, we can see:
+    |Method| Model | R-1|R-2|R-L|
+    |------|------|------|----|-----|
     |Top_20_keywords_with_Top_3_sentences| GPT-2|0.000498|0.000000|0.000498|
     |Top_20_keywords_with_Top_3_sentences|T-5 |0.390160|0.291566|0.384393|
 
@@ -50,13 +56,15 @@ GPT-2 and T-5 for Generating Abstractive summary
     In this experiment we have taken 100_1 prefix to make a soft prompt and it is concatnated top 3 importances sentences  from xsum dataset. to identify the top 3 importance sentences we use Bertsum and fitted to both GPT-2 and T-5 language model.
     <p align="center"><img src="Figure/100_1_prefix_3_imp_sentences.png"></p>
     In our experiment we can see:
+
     |Method| Model | R-1|R-2|R-L|
+    |------|------|------|----|-----|
     |100_1_prefix_with_top_3_imp_sentences| GPT-2|0.004243|0.000000|0.004243|
     |100_1_prefix_with_top_3_imp_sentences|T-5 |0.269796|0.154264|0.260666|
 
 ## Fine-tuning Loss Result:
 * fine-tune loss result graph of GPT-2 :
-<p align="center"><img src="Figure/fine-tune-loss.png"></p>
+<p align="center"><img src="Figure/Fine-tune-loss.png"></p>
 
 figure above shows that for the same number of training sample i.e 5 and same number of iteration and batch_size i.e 100 iteration and 8 batch size. we can see 100_1 prefix with 500 sample and 100_1 as prefix with top 3 setences have compitative loss graph.
 
