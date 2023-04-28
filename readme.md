@@ -92,10 +92,29 @@ figure above shows that for the same number of training sample and same number o
 
 ## Deployment
 
-For implemetation we use HTML, CSS, JavaScript and Bootstrap for the front end of the system. For backend we use a python framework called Django, that uses Model, View, Template architecture. The best ROUGE score scoring model is used to generate summaries. Below are a few screenshots of the website.
+For implemetation we use HTML, CSS, JavaScript and Bootstrap for the front end of the system. For backend we use a python framework called Django, that uses Model, View, Template architecture. The best ROUGE score scoring model is used to generate summaries. Below are a few screenshots of the website. We have a total of 5 pages which are:
+
+- The Landing page which shows the project topic and team members
+- The Architecture page that shows the final architecture of the system
+- The Results page which shows all the loss plots and ROUGE scores
+- The Ask me Anything page which has the compilation of a few errors and fixes we found while implementation
+- The Try it Yourself page which shows the final summarizer.
 
 
+* Landing page:
+<p align="center"><img src="Figure/landing.png"></p>
 
+* Architecture page:
+<p align="center"><img src="Figure/architecture.png"></p>
+
+* Result page:
+<p align="center"><img src="Figure/results.png"></p>
+
+* Ask me anything page:
+<p align="center"><img src="Figure/askmeanything.png"></p>
+
+* Try it yourself page:
+<p align="center"><img src="Figure/tryityourself.png"></p>
 
 ## Conclusion:
 
