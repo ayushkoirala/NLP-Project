@@ -22,13 +22,13 @@ GPT-2 and T-5 for Generating Abstractive summary
 ## Technologies Used
 * Python 
 * PyTorch
-* Bertsum
+* BertSum
 * Spacy
 * Django (Backend)
 * HTML
 * CSS
 * JavaScript
-* Bootstraps
+* Bootstrap 4
 
 ## Model 
 
@@ -38,7 +38,7 @@ GPT-2 and T-5 for Generating Abstractive summary
     Frozen parameter prompt tuning can be especially useful when the task-specific data is limited, or when fine-tuning the entire model with new data may result in overfitting. By freezing some of the parameters in the model, the model can retain its pre-trained knowledge and continue to perform well on tasks that require the use of this knowledge.
 
 * GPT-2 :
-    Prompt tuning technique we have used in our approach is for fine-tuning the GPT-2 model for text summarization text by providing it with a prompts that guide its generation of summaries. The prompt like Top-20 important keywords from each sample or Top-k important sentences from each sample or 100-1 prompt that are relevant to the content to be summarized.
+    The prompt tuning technique that we have used in our approach is for fine-tuning the GPT-2 model for text summarization text by providing it with a prompts that guide its generation of summaries. The prompt like Top-20 important keywords from each sample or Top-k important sentences from each sample or 100-1 prompt that are relevant to the content to be summarized.
     Prompt tuning on GPT-2 for summarization tasks can also be performed with small amounts of additional training data, making it a cost-effective way to fine-tune language model for specific tasks. We belive that getting a right prompt with a appropriate amount of few-shot can add valuable improvement on summarization tasks.
 
 * T5- small :
@@ -90,7 +90,14 @@ figure above shows that for the same number of training sample i.e 5 and same nu
 
 figure above shows that for the same number of training sample and same number of iteration and batch size: 100 iteration and 8 batch size we have got all the compitative result.
 
-## conclusion:
+## Deployment
+
+For implemetation we use HTML, CSS, JavaScript and Bootstrap for the front end of the system. For backend we use a python framework called Django, that uses Model, View, Template architecture. The best ROUGE score scoring model is used to generate summaries. Below are a few screenshots of the website.
+
+
+
+
+## Conclusion:
 
 
 
