@@ -31,7 +31,7 @@ GPT-2 and T-5 for Generating Abstractive summary
 
 ## Experiment:
 
-* 100_1 prefix with 500 sample from Xsum dataset with GPT-2 and T-5:
+* <B>100_1 prefix with 500 sample from Xsum dataset with GPT-2 and T-5:</B>
     In this experiment we have taken 100_1 prefix to make a soft prompt and it is concatnated source document of 500 sample from xsum dataset to both GPT-2 and T-5 language model.
     <p align="center"><img src="Figure/100_1_prompt_500_sample.png"></p>
     
@@ -42,7 +42,7 @@ GPT-2 and T-5 for Generating Abstractive summary
     
     |100_1_prefix_500_sample|T-5 |0.390160|0.291566|0.384393|
 
-* Top 20 keywords with Top 3 sentences:
+* <B>Top 20 keywords with Top 3 sentences:</B>
     In this experiment we have taken 20 keywords from each sample from xsum dataset. for keywords we used spacy model to indentify the important keywords. and for identify the top 3 important sentences we have used Bertsum model. 
     <p align="center"><img src="Figure/Top_20_keywrods_3_sentences.png"></p>
     In our experiment, we can see:
@@ -53,7 +53,7 @@ GPT-2 and T-5 for Generating Abstractive summary
     |Top_20_keywords_with_Top_3_sentences|T-5 |0.390160|0.291566|0.384393|
 
 
-* 100_1 as prefix with top 3 importance sentences:
+* <B>100_1 as prefix with top 3 importance sentences:</B>
     In this experiment we have taken 100_1 prefix to make a soft prompt and it is concatnated top 3 importances sentences  from xsum dataset. to identify the top 3 importance sentences we use Bertsum and fitted to both GPT-2 and T-5 language model.
     <p align="center"><img src="Figure/100_1_prefix_3_imp_sentences.png"></p>
     In our experiment we can see:
