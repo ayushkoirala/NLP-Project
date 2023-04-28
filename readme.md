@@ -12,7 +12,13 @@ GPT-2 and T-5 for Generating Abstractive summary
 ## Technologies Used
 * Python 
 * PyTorch
-* Django
+* Bertsum
+* Spacy
+* Django (Backend)
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
 
 ## Model 
 

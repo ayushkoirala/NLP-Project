@@ -1,0 +1,5 @@
+pip install transformers
+pip install datasets 
+pip install Rouge
+pip install sentencepiece
+pip3 install bert-extractive-summarizer
