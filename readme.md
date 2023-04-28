@@ -6,6 +6,12 @@ GPT-2 and T-5 for Generating Abstractive summary
 ## Objective :
     Soft prompt-based approach for abstractive summarization using extractive summary as input.
 
+## Contributor:
+   Ayush Koirala       (st122802)
+   Sagun Rupakheti     (st123431)
+   Sandhya Lamichhane  (st123497)
+   Sirikit Joshi       (st123492)
+
 ## Requirement
 * pip install -r requrement.txt
 
@@ -18,7 +24,7 @@ GPT-2 and T-5 for Generating Abstractive summary
 * HTML
 * CSS
 * JavaScript
-* Bootstrap
+* Bootstraps
 
 ## Model 
 
