@@ -44,8 +44,9 @@ GPT-2 and T-5 for Generating Abstractive summary
 
 * Top 20 keywords with Top 3 sentences:
     In this experiment we have taken 20 keywords from each sample from xsum dataset. for keywords we used spacy model to indentify the important keywords. and for identify the top 3 important sentences we have used Bertsum model. 
-    <p align="center"><img src="Top_20_keywrods_3_sentences.png"></p>
+    <p align="center"><img src="Figure/Top_20_keywrods_3_sentences.png"></p>
     In our experiment, we can see:
+
     |Method| Model | R-1|R-2|R-L|
     |------|------|------|----|-----|
     |Top_20_keywords_with_Top_3_sentences| GPT-2|0.000498|0.000000|0.000498|
